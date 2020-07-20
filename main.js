@@ -37,11 +37,9 @@ function isValidChoice(choice){
 async function init(){
     let verticalType = 'VerticalType.OFFER';
     let classUid = verticalType.split('.')[1] + "_CLASS_" + uuid1();
-    let classId = '' + config.ISSUER_ID + '.' +"04/21/2022".replace(/\//g,"");
-    console.log(classId);
+    let classId = '' + config.ISSUER_ID + '.' +classUid;
     let objectUid = verticalType.split('.')[1] + "_OBJECT_" + uuid1();
     let objectId = '' + config.ISSUER_ID + '.' + objectUid;
-    console.log(objectId);
     await demoSkinnyJwt(verticalType, classId, objectId);
 }
 
