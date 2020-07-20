@@ -1,0 +1,9 @@
+{
+  "SERVICE_ACCOUNT_EMAIL_ADDRESS": "",
+  "SERVICE_ACCOUNT_FILE": "creds.json",
+  "ISSUER_ID": "",
+  "AUDIENCE": "",
+  "JWT_TYPE": "",
+  "SCOPES": "",
+  "ORIGINS": ["http://localhost:8080"]
+}

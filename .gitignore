@@ -1,0 +1,14 @@
+
+node_modules/
+npm-debug.log
+target/
+test-results.xml
+dictionary-**.csv
+analyze.log
+reports/
+.nyc_output/
+*.tgz
+*.log
+*-lock.json
+dictionary-*.csv
+.idea/
