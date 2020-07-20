@@ -1,6 +1,6 @@
 class ResourceDefinitions {
 
-   async makeOfferClassResource(classId){
+    makeOfferClassResource(classId){
        let payload =
            {
                "id": classId,
@@ -80,7 +80,7 @@ class ResourceDefinitions {
        return payload;
     }
 
-   async makeOfferObjectResource(classId, objectId){
+    makeOfferObjectResource(classId, objectId){
        let  payload = {};
        payload = {
            "id": objectId,
@@ -97,7 +97,7 @@ class ResourceDefinitions {
                    "date": "2019-02-01T23:20:50.52Z"
                }
            }
-       }
+       };
 
        return payload
    }
